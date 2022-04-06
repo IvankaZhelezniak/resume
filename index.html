@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!--главный контейнер-->
+    <div class="wrapper">
+      <aside class="sidebar">
+        <img class="my-photo" src="./img/my_foto.JPEG" alt="My photo" />
+
+        <div class="main-container">
+          <!-- Contacts container-->
+          <div class="contacts-container">
+            <h3 class="contacts-title">Contacts</h3>
+            <div class="contacts-city">Uzhgorod</div>
+            <div>
+              <span class="contacts-link-type">C:</span>
+              <a class="contacts-link" href="tel:380665622304"
+                >+38 066 562 23 04</a
+              >
+            </div>
+            <div>
+              <span class="contacts-link-type">E:</span>
+              <a class="contacts-link" href="mailto:ivankaz685@gmail.com"
+                >ivankaz685@gmail.com</a
+              >
+            </div>
+            <div>
+              <span class="contacts-link-type">G:</span>
+              <a class="contacts-link" href="https://github.com/IvankaZhelezniak">GitHub</a>
+            </div>
+          </div>
+
+          <!-- Tech Skills container-->
+          <div class="tech-skills-container">
+            <h3 class="tech-skills-title">Tech Skills</h3>
+            <ul>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">HTML5</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">CSS3</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">GIT</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">WebPack</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">JavaScript</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">React.js</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">Node.js</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Soft Skills container-->
+          <div class="soft-skills-container">
+            <h3 class="soft-skills-title">Soft Skills</h3>
+            <ul>
+              <li class="soft-skills-item">
+                <span class="soft-skills-text">Scrum</span>
+              </li>
+              <li class="soft-skills-item">
+                <span class="soft-skills-text">Agile</span>
+              </li>
+              <li class="soft-skills-item">
+                <span class="soft-skills-text">GTD</span>
+              </li>
+              <li class="soft-skills-item">
+                <span class="soft-skills-text">Teamwork</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <!--обо мне контейнер-->
+      <div class="about-me-container">
+        <!-- about me my info -->
+        <div class="info-container">
+          <h2 class="profession">Front-End Developer</h2>
+          <h1 class="name">Ivanka Zhelizniak</h1>
+
+          <p class="description">
+            I'm looking for a full-time front-end developer job. I have experience in create command
+            and own projects. I have a great desire to develop in the field of web development from
+            front-end to back-end. I want to get into a friendly team with experienced developers to
+            learn from experience and create interesting projects.
+          </p>
+        </div>
+
+        <!-- projects container -->
+        <div class="projects-container">
+          <h3 class="about-me-title">Projects</h3>
+          <ol>
+            <li class="projects-item">
+              <a class="projects-link" href="https://ivankazhelezniak.github.io/goit-markup-hw-08/index.html">
+                WebStudio
+              </a>
+              <span class="dots"
+                >...............................................................</span
+              >
+              <span>
+                <b>[</b> <span class="tech-name">HTML5, CSS3, SASS</span> <b>]</b>
+              </span>
+              <p class="description">The project we worked on while learning html css. Made adaptive for different screens
+              (320px, 480px, 768px, 1200px). Implemented graphics for retina screens and webp
+              image format for devices that support it.</p>
+              <a class="profession-company github" href="https://github.com/IvankaZhelezniak/goit-markup-hw-08">GitHub code</a>
+            </li>
+            <li class="projects-item">
+              <a class="projects-link" href="https://mykhailo-gogol.github.io/parcel-project-template/">
+                IceCream
+              </a>
+              <span class="dots"
+                >...................................................................</span
+              >
+              <span>
+                <b>[</b> <span class="tech-name">HTML5, CSS3, JavaScript, Parcel</span> <b>]</b>
+              </span>
+              <p class="description">Team project</p>
+              <a class="profession-company github" href="https://github.com/Mykhailo-Gogol/parcel-project-template">GitHub code</a>
+            </li>
+          </ol>
+        </div>
+
+        <!-- work experience -->
+        <div>
+          <h3 class="about-me-title">Work Experience</h3>
+
+          <!-- company 1 -->
+          <div>
+            <h4 class="profession-title">
+              Sales Manager
+              <span class="profession-company">TM Alines</span>
+            </h4>
+            <span class="profession-time"
+              >September 2017 - 2020
+              <span class="profession-divider">|</span> Ukraine
+            </span>
+            <ul class="profession-duties">
+              <li class="profession-duties-item">
+                Receiving messages from clients.
+              </li>
+              <li class="profession-duties-item">
+                Assistance in product selection and advice.
+              </li>
+              <li class="profession-duties-item">
+                Design and publication of advertisements.
+              </li>
+              <li class="profession-duties-item">
+                Search for buyers.
+              </li>
+            </ul>
+          </div>
+
+          <!-- company 2 -->
+          <div>
+            <h4 class="profession-title">
+              Financial Consultant.
+              <span class="profession-company">Pawnshop</span>
+            </h4>
+            <span class="profession-time"
+              >September 2015 - October 2016
+              <span class="profession-divider">|</span> Ukraine
+            </span>
+            <ul class="profession-duties">
+              <li class="profession-duties-item">
+                Counseling clients. Maintaining documentation and drafting contracts.
+              </li>
+              <li class="profession-duties-item">
+                Calling the database.
+              </li>
+              <li class="profession-duties-item">
+                Looking for new clients.
+              </li>
+            </ul>
+          </div>
+
+          <!-- company 3 -->
+          <div>
+            <h4 class="profession-title">
+              Wholesaler
+              <span class="profession-company">Stock</span>
+            </h4>
+            <span class="profession-time"
+              >June 2011 - February 2015
+              <span class="profession-divider">|</span> Ukraine
+            </span>
+            <ul class="profession-duties">
+              <li class="profession-duties-item">
+                Search for shops and new customers.
+              </li>
+              <li class="profession-duties-item">
+                Help choosing a product.
+              </li>
+              <li class="profession-duties-item">
+                Working with existing customers.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- my Education -->
+        <div>
+          <h3 class="about-me-title">Education</h3>
+          <h4 class="profession-company">
+            GoIT
+          </h4>
+          <h5 class="education-management">FullStack Developer</h5>
+          <span class="description profession-time">Septermber 2020 - up to now
+            <span class="profession-divider">|</span> Ukraine</span>
+          <h4 class="profession-company profession-company-university">
+            Uzhgorod National University
+          </h4>
+          <h5 class="education-management">Engineer</h5>
+          <span class="description profession-time"
+            >Septermber 2005 - June 2010
+            <span class="profession-divider">|</span> Ukraine</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
